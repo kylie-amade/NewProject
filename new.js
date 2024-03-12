@@ -1,3 +1,3 @@
-function handleSearch{
-    
+function handleSearch(){
+
 }
