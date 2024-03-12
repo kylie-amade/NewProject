@@ -3,7 +3,7 @@ function handleSearch(event){
     let searchElement = document.querySelector("#searchInput");
     let cityElement = document.querySelector("#newCity");
     cityElement.innerHTML = searchElement.value ;
+    searchCity(seearchInput.value);
 }
-
 let searchInputElement = document.querySelector("#theForm");
 searchInputElement.addEventListener("submit", handleSearch);
