@@ -11,25 +11,26 @@
   </head>
   <body>
     <div id="wholePage">
-    <header>
-      <form>
-        <input type="search" placeholder="Enter Your City" required />
-        <input type="submit" value="Search" />
+    <header id="startPage">
+      <form id="theForm">
+        <input type="search" placeholder="Enter Your City" required class="search-input" />
+        <input type="submit" value="Search" class="submit-value"/>
       </form>
-      <h1>Your City</h1>
+      <h1 id="newCity">Your City</h1>
     </header>
     <main>
       <div>
-        <div>📆 DateTime|Monday</div>
-        <div>
-          35°C
-          <br />
-          ⛅
+        <div class="dateTime">📆 DateTime|Monday</div>
+        <div class="temperatureDisplay" id="temperatureDisplay">
+          <div> <span class="temperature-value">35</span>
+            <span class="degrees">°</span><span class="temperature-measurement">
+              C</span></div>
+          <div class="weather-emoji">⛅</div>
         </div>
-        <div>Cloudy</div>
-        <div>
-          <span> Humidity</span>
-          <span> Wind</span>
+        <div class="weather-information">Cloudy</div>
+        <div class="weatherPattern">
+          <div> Humidity</div>
+          <div> Wind</div>
         </div>
       </div>
     </main>

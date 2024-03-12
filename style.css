@@ -10,9 +10,88 @@ body {
 #wholePage {
   max-width: 600px;
   margin: 15px auto;
-  padding: 30px;
+  padding: 45px;
   color: white;
-  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(-20deg, #c654f0 0%, #2ec9ec 100%);
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+.search-input{
+  width:300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px ;
+  border: #b721ff ;
+  margin-right: auto;
+  background-color: aliceblue;
+  color: #b721ff;
+}
+.submit-value{
+  padding:10px;
+  margin-bottom: 10px;
+  border-radius: 5px ;
+  border: #b721ff ;
+  background-color: rgb(238, 233, 238);
+  color: grey;
+  margin-left: 5px;
+  width:80px;
+
+}
+#theForm{
+  padding: 10px 30px 60px 10px ;
+  border-bottom: 1px solid whitesmoke;
+  height: 5px;
+  margin-bottom: 30px;
+}
+#newCity{
+  padding: 5px 5px 10px 5px ;
+  text-align:center;
+}
+.dateTime{
+  padding: 10px;
+}
+
+#temperatureDisplay{
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+}
+.temperature-value{
+  font-size: 70px;
+  font-weight: bold;
+}
+.degrees{
+    position: absolute;
+  top: 280px;
+  font-weight: bolder;
+  font-size:50px ;
+}
+.temperature-measurement{
+  font-size: 50px;
+  padding: 5px;
+}
+.weather-emoji{
+  font-size: 80px;
+  padding:5px;
+}
+.weather-information{
+  padding: 0px 10px;
+  font-size: x-large;
+  color:whitesmoke;
+}
+.weatherPattern{
+  padding:15px;
+}
+footer{
+  padding:4px 6px;
+  border-top:1px solid whitesmoke;
+  height: 5px;
+  margin-bottom: 30px;
+}
+a:active{
+  color:aqua;
+}
+a:hover{
+  color:#2ec9ec;
+}
+
