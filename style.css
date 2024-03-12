@@ -1,13 +1,13 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Truculenta", sans-serif;
-  background:whitesmoke;
+  background: whitesmoke;
 }
-#wholePage{
+#wholePage {
   max-width: 600px;
   margin: 15px auto;
   padding: 30px;
@@ -15,4 +15,4 @@ body {
   background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  }
+}
