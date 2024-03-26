@@ -16,7 +16,7 @@ body {
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.search-input{
+.searchInput{
   width:300px;
   padding: 10px;
   margin-bottom: 10px;
@@ -43,7 +43,7 @@ body {
   height: 5px;
   margin-bottom: 30px;
 }
-#newCity{
+#myCity{
   padding: 5px 5px 10px 5px ;
   text-align:center;
 }
