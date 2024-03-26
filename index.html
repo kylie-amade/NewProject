@@ -15,8 +15,8 @@
   </head>
   <body>
     <div id="wholePage">
-      <header id="startPage">
-        <form id="theForm">
+      <header>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter Your City"
@@ -25,31 +25,41 @@
             id="searchInput"
           />
           <input
-            type="submit"
+            type="Submit"
             value="Search"
             class="submit-value"
             id="submitValue"
           />
         </form>
-        <h1  class ="myCity" id="myCity">Your City</h1>
+        <h1 class="myCity" id="myCity">Your City</h1>
       </header>
       <main>
         <div>
-          <div class="dateTime">📆 <span id="dateTime">DateTimeMonday</span></div>
+          <div class="dateTime">
+            📆 <span id="dateTime">DateTimeMonday</span>
+          </div>
           <div class="temperatureDisplay" id="temperatureDisplay">
             <div>
               <span class="temperature-value" id="temperature-value"></span>
               <span class="degrees" id="degrees">°</span
-              ><span class="temperature-measurement" id="temperature-measurement"> C</span>
+              > <span
+                class="temperature-measurement"
+                id="temperature-measurement"
+              >
+                C</span
+              >
             </div>
             <div class="weather-emoji" id="weather-emoji">⛅</div>
           </div>
           <div class="weather-information" id="weather-information">Cloudy</div>
           <div class="weatherPattern">
             <div>Humidity <span class="humidity" id="humidity"></span></div>
-            <div>Wind <span  class="windSpeed" id="windSpeed"></span></div>
+            <div>Wind <span class="windSpeed" id="windSpeed"></span></div>
           </div>
         </div>
+        <div>
+          <div class="weather-forecast"id="weather-forecast"></div>
+        </div>"
       </main>
       <footer>
         This was coded by
@@ -60,9 +70,8 @@
         >
         deployed on
         <a href="https://darling-wisp-0ed297.netlify.app/" target="blank"
-          >Netlify</a
+          >Netlify.</a
         >
-        .
       </footer>
     </div>
     <script src="new.js"></script>

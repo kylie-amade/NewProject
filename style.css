@@ -16,82 +16,82 @@ body {
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.searchInput{
-  width:300px;
+.searchInput {
+  width: 300px;
   padding: 10px;
   margin-bottom: 10px;
-  border-radius: 5px ;
-  border: #b721ff ;
+  border-radius: 5px;
+  border: #b721ff;
   margin-right: auto;
   background-color: aliceblue;
   color: #b721ff;
 }
-.submit-value{
-  padding:10px;
+.submit-value {
+  padding: 10px;
   margin-bottom: 10px;
-  border-radius: 5px ;
-  border: #b721ff ;
+  border-radius: 5px;
+  border: #b721ff;
   background-color: rgb(238, 233, 238);
   color: grey;
   margin-left: 5px;
-  width:80px;
-
+  width: 80px;
 }
-#theForm{
-  padding: 10px 30px 60px 10px ;
+#search-form {
+  padding: 10px 30px 60px 10px;
   border-bottom: 1px solid whitesmoke;
   height: 5px;
   margin-bottom: 30px;
 }
-#myCity{
-  padding: 5px 5px 10px 5px ;
-  text-align:center;
+#myCity {
+  padding: 5px 5px 10px 5px;
+  text-align: center;
+  font-weight: 200px;
 }
-.dateTime{
+.dateTime {
   padding: 10px;
 }
 
-#temperatureDisplay{
+#temperatureDisplay {
   display: flex;
   justify-content: space-between;
-  padding:20px;
+  padding: 20px;
 }
-.temperature-value{
+.temperature-value {
   font-size: 70px;
   font-weight: bold;
 }
-.degrees{
-    position: absolute;
-  top: 280px;
+.degrees {
+  position: absolute;
+  top: 200px;
   font-weight: bolder;
-  font-size:50px ;
+  font-size: 50px;
+  margin-right: 5px;
 }
-.temperature-measurement{
+.temperature-measurement {
   font-size: 50px;
   padding: 5px;
 }
-.weather-emoji{
+.weather-emoji {
   font-size: 80px;
-  padding:5px;
+  padding: 5px;
 }
-.weather-information{
+.weather-information {
   padding: 0px 10px;
   font-size: x-large;
-  color:whitesmoke;
+  color: whitesmoke;
 }
-.weatherPattern{
-  padding:15px;
+.weatherPattern {
+  padding: 15px;
 }
-footer{
-  padding:4px 6px;
-  border-top:1px solid whitesmoke;
+footer {
+  padding: 4px 6px;
+  border-top: 1px solid whitesmoke;
   height: 5px;
   margin-bottom: 30px;
 }
-a:active{
-  color:aqua;
+a:active {
+  color: aqua;
 }
-a:hover{
-  color:#2ec9ec;
+a:hover {
+  color: #2ec9ec;
 }
-
