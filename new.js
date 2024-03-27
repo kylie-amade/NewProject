@@ -13,7 +13,7 @@ function refreshWeather(response) {
   timeElement.innerHTML = formatDate(date);
   informationElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity} %`;
-  windSpeedElement.innerHTML = `${response.data.windSpeed}km/h`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
   iconElement.innerHTML = `<img src = "${
     response.data.condition.icon - url
@@ -64,7 +64,7 @@ function getForecast(_newCity) {
 }
 
 function displayForecast(response) {
-  let forecastHtml = "";
+  let forecastHtml = " ";
   response.data.daily.forEach(function (day, index) {
     if (index < 5) {
       forecastHtml =
