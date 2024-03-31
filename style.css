@@ -95,3 +95,7 @@ a:active {
 a:hover {
   color: #2ec9ec;
 }
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
