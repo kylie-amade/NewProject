@@ -8,7 +8,7 @@ body {
   background: whitesmoke;
 }
 #wholePage {
-  max-width: 600px;
+  max-width: 800px;
   margin: 15px auto;
   padding: 45px;
   color: white;
@@ -95,7 +95,12 @@ a:active {
 a:hover {
   color: #2ec9ec;
 }
-.forecast {
-  display: flex;
+#weather-forecast-day {
+  display:flex;
   justify-content: space-between;
 }
+.windSpeed, .humidity {
+  color:rgb(33, 198, 248);
+  font-size: large;
+}
+
