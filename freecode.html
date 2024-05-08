@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset ="UTF-8">
+    <title>A Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="whole-page">
+            <h1 id="title">Tea Preference Survey </h1>
+            <p id="description" >Kindly take a minute to fill out this form to help us serve you better .</p>
+            <form action="#" method="post" id="survey-form">
+                <fieldset id="first">
+                    <label for="name-label" id="name-label">Name:</label>
+                    <input id="name" type="text" name="text"placeholder="Enter your name"      required>
+                    <br/>
+                    <label for="email-label"id="email-label">Email :</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email" required> 
+                    <br/>
+                   <label for="number-label"id="number-label">Age(optional):</label>
+                   <input id="number" type="number" name="number" placeholder="Age?"       min="16" max="100" /> 
+                </fieldset>
+                <fieldset id="second">
+                    <legend>Prefrence</legend>
+                    <label for="favourite-product">•What is your favourite product from us?</label>
+                    <select id="dropdown" name="favourite">
+                        <option value=" "> (select one) </option>
+                        <option value="1"> Black</option>
+                        <option value="2"> Green</option>
+                        <option value="3"> Herbal</option>
+                    </select>
+                    <br/>
+                    <label for="prefer" name="prefer"> •Which one do you prefer ?</label>
+                    </br>
+                    <input id="prefer" type="radio" name="prefer" class="inline"  value="yes" checked/>Loose Leaves
+                    <br>
+                    <input id="prefer" type="radio" name="prefer" class="inline" value="yes"/>Tea bag
+                    <br/>
+                   <label for="your tea">•How do you prefer your tea?</label>
+                   <br/>
+                   <select id="favourite" name="favourite">
+                       <option value=" "> (select one) </option>
+                       <option value="1"> Hot</option>
+                       <option value="2"> Iced</option>
+                       <option value="3"> With Milk</option>
+                       <option value="4"> With Sugar</option>
+                  </select>
+                </fieldset>
+                <fieldset id="third">
+          <legend for="consumption">Consumption Habits</legend>
+            <label for="consumption" >•How often do you drink your tea?</label>
+            <br/>
+            <select id="consumption" name="consumption">
+               <option value=" "> (select one) </option>
+               <option value="1"> Once</option>
+               <option value="2"> Twice</option>
+               <option value="3"> Thrice</option>
+            </select> 
+            <br/>
+            <label for="time">When do you drink your tea?</label>
+            <br/>
+            <select id="time" name="time">
+              <option value=" "> (select one) </option>
+              <option value="1"> Morning</option>
+              <option value="2"> Noon</option>
+              <option value="3"> At Night</option>
+            </select>
+           <br/>
+           <label for="flavours" > •Which flavours do you prefer ?</label>
+          </br>
+          <input id="prefer" type="checkbox" name="prefer" class="inline" value="yes" checked/>Fruity
+          </br>
+          <input id="prefer" type="checkbox" name="prefer"value="yes" class="inline" />Floral
+          <br/>
+          <input id="prefer" type="checkbox" name="prefer" class="inline"
+          value="yes" />Spicy
+          <br/>
+          <label for="flavours" > •Are there any flavours you dislike ?</label>
+          </br>
+          <input id="prefer" type="radio" name="prefer" class="inline"
+          value="yes" checked/>Fruity
+          </br>
+          <input id="prefer" type="radio" name="prefer" class="inline"
+          value="yes" />Floral
+          <br/>
+          <input id="prefer" type="radio" name="prefer" class="inline"         value="yes" />Spicy
+        </fieldset>
+        <fieldset id="fourth">
+            <legend>Feedback</legend>
+            <label for="feedback">•Is there anything else you'd like to share about your tea prefrences?</label>
+            <br/>
+            <textarea id="feedback" name="message" rows="4" cols="30"
+            placeholder="maximum 300 words"></textarea>
+            <br/>
+              <label for="feedback">•Do you have any suggestions for improving the tea drinking experience?</label>
+              <br/>
+            <textarea id="feedback" name="message" rows="4" cols="30"
+            placeholder="maximum 300 words"></textarea>
+        </fieldset> 
+        <br/>
+        <button id="submit">Submit</button>     
+      </form>
+      <p id="new">Thank you for response.Your feedback will be used to improve on the services we provide to you our consumer.</p>
+     </div>
+    </body>
+</html>
