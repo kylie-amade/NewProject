@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #f9f9f9;
+  --intermediate-color: blueviolet;
+  --border: 2px solid #4caf50;
+  --text-align: center;
+  --border-radius: 8px;
+  --padding: 20px;
+}
+p {
+  border: var(--border);
+  padding: var(--padding);
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  max-width: 600px;
+  text-align: var(--text-align);
+}
+a:visited {
+  color: rgb(59, 223, 168);
+}
+h1 {
+  color: var(--intermediate-color);
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#take {
+  border: 2px solid var(--intermediate-color);
+  background-color: var(--intermediate-color);
+  margin-bottom: 20px;
+  border-radius: var(--border-radius);
+  color: var(--secondary-color);
+  padding: 5px;
+}
+img {
+  max-width: 300px;
+  text-align: center;
+  border-radius: var(--border-radius);
+  border: var(--border);
+}
